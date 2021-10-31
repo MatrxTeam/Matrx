@@ -43,7 +43,7 @@ sudo luarocks install luautf8
 cd .. ;sudo rm -rf luarocks*
 sudo timedatectl set-timezone Asia/Baghdad
 echo -e "\033[0;36m"
-exho -e "Source Matrx"
+echo -e "Source Matrx"
 echo -e "\033[0m"
 cd $THIS_DIR && sudo chmod +x tg
 lua Matrx.lua
